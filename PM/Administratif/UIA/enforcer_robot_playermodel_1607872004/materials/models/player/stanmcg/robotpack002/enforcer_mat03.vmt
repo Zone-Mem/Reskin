@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	$basetexture "models/player/stanmcg/robotpack002/enforcer03_color"
+	$bumpmap "models/player/stanmcg/robotpack002/enforcer03_normal"
+
+	$phong 1
+	$phongfresnelranges "[0.3 0.2 0.4]"
+	$phongexponent 1
+
+	$rimlight 1
+	$rimlightexponent 5
+	$rimlightboost 1.5
+
+	$blendtintbybasealpha 1
+
+	$blendtintcoloroverbase 0
+}

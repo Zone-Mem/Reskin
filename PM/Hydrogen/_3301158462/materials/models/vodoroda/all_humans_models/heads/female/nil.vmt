@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/vodoroda/all_humans_models/heads/female/nil"
+	"$alphatest" 1
+}

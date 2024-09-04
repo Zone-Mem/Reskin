@@ -1,0 +1,39 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/vodoroda/all_humans_models/heads/head_2_1"
+	"$bumpmap" "models/vodoroda/all_humans_models/heads/head_2_3_n"
+	//MaterialAdjustment
+	$nocull 1	
+	$normalmapalphaenvmapmask 1 	
+	"$phongexponenttexture" "models/vodoroda/all_humans_models/shared/t_mp_face_rgh"  
+		
+	//"$phongwarptexture"		"models/vodoroda/all_humans_models/shared/phongwarp_metal2"		
+	$lightwarptexture "models/vodoroda/all_humans_models/shared/lightwarp_flesh"
+	
+	"$phongfresnelranges"	"[0.8 2 10.5]"	
+"$PhongDisableHalfLambert" "1"		
+	"$phongtint" 			"[1 1 1.1]"			
+	//"$PhongAlbedoTint" "1"
+
+	//Situational
+
+	//"$rimlight" "1"
+	"$rimmask" "1"
+	"$rimlightboost" "5"	
+	"$rimexponent" "0.1"
+
+
+	//FresnelReferences 
+ 
+	//"[0.22 0.856 20]" - NonMet
+	//"[1 1.05 1.25]" - Leath_Gen
+	//"[0.76 0.921 1.25]" - TheRest
+	//"[1 5 22.5]" - MtRef
+	//"[1 1.35 2.5]" -AlbGldMtl
+	//"[0.5 2.5 22.5] - mtldm
+	//"[0.8 2 22.5] - skn
+ 
+}
+
+
+

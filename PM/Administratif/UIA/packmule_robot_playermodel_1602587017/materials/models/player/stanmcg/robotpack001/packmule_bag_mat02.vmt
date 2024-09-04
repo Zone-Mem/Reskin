@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/stanmcg/robotpack001/bag02_color"
+	"$bumpmap" "models/player/stanmcg/robotpack001/bag02_normal"
+
+	"$phong" "1"
+	"$phongexponent" "1"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.3 0.2 0.2]"
+	"$halflambert" "1"
+
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" ".1"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "1.5"
+
+
+}

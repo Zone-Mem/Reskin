@@ -1,0 +1,37 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/stanmcg/robotpack001/packmule04_color"
+	"$bumpmap" "models/player/stanmcg/robotpack001/packmule04_normal"
+
+	"$phong" "1"
+	"$phongexponent" "1"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[.2 .2 .3]"
+	"$halflambert" "0"
+
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "1"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "4"
+
+
+	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"
+
+	Proxies
+
+	{
+
+		PlayerColor
+
+		{
+
+			resultVar	$color2
+
+			default 		255 255 255
+
+		}
+
+	}
+}

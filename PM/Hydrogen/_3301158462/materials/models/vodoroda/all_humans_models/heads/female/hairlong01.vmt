@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/vodoroda/all_humans_models/heads/female/HairLong01"
+	"$bumpmap" "models/vodoroda/all_humans_models/heads/female/HairLong01_n"
+	"$color2" "[0.3 0.3 0.3]"
+	"$alphatest" 1
+	"$allowalphatocoverage" 1
+	"$alphatestreference" .1
+	"$nocull" 1
+
+	"$phong"	"1"
+	"$phongexponent"	"3"
+	"$phongboost" ".025"
+	"$phongfresnelranges"	"[.5 .33 0]"
+}
